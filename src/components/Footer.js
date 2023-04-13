@@ -4,12 +4,12 @@ import { AiFillDribbbleCircle } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-    <div className="footersec mt-10 ">
-        <div className="grid1 flex justify-center gap-[60px] ">
-            <div className="logo  text-[30px] font-bold ">
+    <div className="footersec mt-10 py-[20px] ">
+        <div className="  flex justify-center gap-[60px] ">
+            <div className="logo    text-[30px] font-bold ">
                 <h1>GRIDFOLIO</h1>
             </div>
-            <div className="tabs text-[18px] text-[#727272] font-semibold flex items-center gap-[40px] ">
+            <div className="tabs  text-[18px] text-[#727272] font-semibold flex items-center gap-[40px] ">
                 <p>Home</p>
                 <p>Work</p>
                 <p>About</p>

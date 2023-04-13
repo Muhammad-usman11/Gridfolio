@@ -4,7 +4,7 @@ import { MdAssessment, MdLoyalty, MdViewQuilt } from "react-icons/md";
 const Servicecard = () => {
   return (
    <>
-   <div className=" m-auto card max-w-[600px] py-[35px] px-[25px] bg-[#FFFFFF] rounded-[24px] ">
+   <div className="  card max-w-[600px] py-[35px] px-[25px] bg-[#FFFFFF] rounded-[24px] ">
         <div className="cardbody">
           <p className=' mt-[50px] uppercase text-[16px] font-bold text-[#727272] ' >what i do</p>
           <div className="content justify-between mt-[20px] flex items-center ">
