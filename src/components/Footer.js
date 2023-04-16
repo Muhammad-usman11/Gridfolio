@@ -26,9 +26,9 @@ const Footer = () => {
             </div>
         </div>
         <div className="last lg:flex-nowrap flex-wrap lg:text-left text-center  mt-[40px] text-[18px] text-[#727272] font-semibold flex justify-center lg:gap-[30px] gap-[10px]  ">
-            <p className=' lg:w-[10%] w-[100%] '  >© 2022 Gridfolio</p>
-            <p className=' lg:w-[10%] w-[100%] '>Matteo Tiscia</p>
-            <p className=' lg:w-[10%] w-[100%] '>Made in Framer</p>
+            <p className=' lg:w-[11%] w-[100%] '  >© 2022 Gridfolio</p>
+            <p className=' lg:w-[11%] w-[100%] '>Matteo Tiscia</p>
+            <p className=' lg:w-[11%] w-[100%] '>Made in Framer</p>
         </div>
     </div>
     
