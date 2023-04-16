@@ -10,10 +10,10 @@ const Cardx = () => {
             Hey, I'm Andrew 👋
           </h1>
           <div className="content justify-between mt-[20px] flex items-center ">
-            <p className=" text-[#727272] text-[17px] sm:text-[22px] font-medium  ">
+            <p className=" lg:max-w-[360px] max-w-[170px]  text-[#727272] text-[17px] sm:text-[22px] font-medium  ">
               A senior UX Designer at Revolution
             </p>
-            <div className="arrow text-[40px] text-gray-300 ">
+            <div className="arrow text-[40px] text-gray-300 hover:text-[#F1B43E] ">
               <FiArrowRightCircle />
             </div>
           </div>

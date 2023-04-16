@@ -58,7 +58,7 @@ export default function Navbar() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 
-                        <a className=' bg-black text-white rounded-[20px] py-[12px] px-[30px] font-bold text-[19px] ' href="">
+                        <a className=' lg:visible hidden  bg-black text-white rounded-[20px] py-[12px] px-[30px] font-bold text-[19px] ' href="">
                             Get in touch
                         </a>
                 {/* Profile dropdown */}
