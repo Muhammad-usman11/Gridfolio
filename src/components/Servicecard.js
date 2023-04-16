@@ -1,10 +1,12 @@
 import React from 'react'
 import { FiArrowRightCircle } from "react-icons/fi";
 import { MdAssessment, MdLoyalty, MdViewQuilt } from "react-icons/md";
+
 const Servicecard = () => {
   return (
    <>
-   <div className="  card max-w-[600px] py-[35px] px-[25px] bg-[#FFFFFF] rounded-[24px] ">
+   
+   <div className="  card max-w-[650px] py-[36px] px-[36px] bg-white border-0 shadow-xl rounded-2xl divide-white ">
         <div className="cardbody">
           <p className=' mt-[50px] uppercase text-[16px] font-bold text-[#727272] ' >what i do</p>
           <div className="content lg:flex-nowrap flex-wrap justify-between mt-[20px] flex items-center ">
@@ -32,6 +34,8 @@ const Servicecard = () => {
           </div>
         </div>
       </div>
+
+   
    </>
   )
 }

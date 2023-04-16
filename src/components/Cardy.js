@@ -3,7 +3,7 @@ import { FiArrowRightCircle } from "react-icons/fi";
 const Cardy = () => {
   return (
     <>
-    <div className="  card max-w-[360px] p-[30px]  bg-[#FFFFFF] rounded-[24px] ">
+    <div className="  card max-w-[360px] p-[30px]  bg-white border-0 shadow-xl rounded-2xl  ">
         <div className="cardbody">
           <img className=" max-w-[100px] " src="/images/team1.png" alt="" />
           <p className=" mt-[35px] uppercase font-medium text-[16px] text-[#727272]  ">

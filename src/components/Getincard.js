@@ -1,9 +1,11 @@
 import React from 'react'
 import { FiArrowRightCircle } from "react-icons/fi";
+import Link from 'next/link';
 const Getincard = () => {
   return (
    <>
-   <div className="  card max-w-[600px] py-[35px] px-[25px] bg-[#FFFFFF] rounded-[24px] ">
+   <Link href="/contact" > 
+   <div className="  card max-w-[650px] py-[60px] px-[36px] bg-white border-0 shadow-xl rounded-2xl divide-white ">
         <div className="cardbody">
           
           <h1 className=" mt-[60px] font-bold text-[28px] text-black ">
@@ -19,6 +21,7 @@ const Getincard = () => {
           </div>
         </div>
       </div>
+      </Link>
    </>
   )
 }

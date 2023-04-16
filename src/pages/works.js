@@ -1,16 +1,17 @@
 import React from 'react'
+
 import Cardx from '@/components/Cardx'
 import Cardy from '@/components/Cardy'
-import Getincard from '@/components/Getincard'
-import Servicecard from '@/components/Servicecard'
 
-const main = () => {
+
+import Banner from '@/components/Banner'
+const works = () => {
   return (
     <>
-    <div className="homesec bg-[#FCFAF4] py-[5px] ">
+     <div className="homesec bg-[#FCFAF4] ">
       
       <div className="wrapper">
-        
+        <Banner/>
         <div className="grid1 grid gap-[30px] grid-cols-1 sm:grid-cols-[45%_25%_25%]   lg:mt-[80px] mt-[30px] ">
           <Cardx/>
           <Cardy/>
@@ -22,17 +23,14 @@ const main = () => {
           <Cardy/>
           <Cardx/>
         </div>
-        <div className="grid3 grid gap-[15px] grid-cols-1 sm:grid-cols-[50%50%] mt-[30px] ">
-          <Getincard/>
-          <Servicecard/>
-          
-        </div>
+        
       </div>
      
     </div>
+    
     
     </>
   )
 }
 
-export default main
+export default works

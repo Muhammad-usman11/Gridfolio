@@ -5,20 +5,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap'); 
 
 h1{
-    font-family: 'Inter', sans-serif;
+    font-family:  sans-serif;
 }
 p{
     font-family: 'Inter', sans-serif;
 }
 *{
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
+.cardx:hover .arrow{
+    color: #F1B43E;
+}
+
 img{
     width: 100%;
 }
+
+
 .wrapper{
-    max-width: 1280px;
     width: 80%;
+    max-width: 1480px;
     margin: auto;
+}
+ 
+.about_me{
+    font-size: clamp(0px, 19vw, 300px);
+    white-space: nowrap;
+}
+.line{
+    width: clamp(0px, 5vw, 100px);
+    white-space: nowrap;
+}
+  @media all and (max-width:640px){
+    .aboutImg{
+      height: 20vh;
+    }
 }

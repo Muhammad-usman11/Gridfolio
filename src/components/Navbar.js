@@ -1,12 +1,12 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import Link from 'next/link'
 const navigation = [
-  { name: 'Home', href: '#', current: false },
-  { name: 'Works', href: '#', current: false },
-  { name: 'About', href: '#', current: false },
-  { name: 'Resume', href: '#', current: false },
+  { name: 'Home', href: '/', current: false },
+  { name: 'Works', href: '/works', current: false },
+  { name: 'About', href: '/about', current: false },
+  { name: 'Resume', href: '/resume', current: false },
 ]
 
 function classNames(...classes) {
@@ -41,26 +41,26 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <Link 
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-500 hover:bg-gray-700 text-[22px] hover:text-white',
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-500  text-[22px] hover:text-[#F1B43E] ',
                           'rounded-md px-3 py-2  font-semibold'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
                 </div>
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 
-                        <a className=' lg:visible hidden  bg-black text-white rounded-[20px] py-[12px] px-[30px] font-bold text-[19px] ' href="">
+                        <Link className='   bg-black text-white rounded-[20px] py-[12px] px-[30px] font-bold text-[19px] hover:bg-[#F1B43E] ' href="/contact">
                             Get in touch
-                        </a>
+                        </Link>
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
